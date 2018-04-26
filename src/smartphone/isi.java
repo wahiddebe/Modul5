@@ -171,12 +171,12 @@ public final class isi {
                     x.p=this.p;
                     kmb=x.kembalian();
                     if (kmb>=0){
-                        System.out.println("\t\t\t\t\t\t\t\t _______________________________________________________________");
+                        System.out.println("\t\t\t\t\t\t\t\t _________________________________________________________");
                         x.tx();
                         System.out.println(smart[8][1]+" Sejumlah "+jml+" buah\t|");
                         System.out.println("\t\t\t\t\t\t\t\t ---------------------------------------------------------------");
                         System.out.println("\t\t\t\t\t\t\t\t|Uang kembalian anda "+kmb+" rupiah\t\t\t\t|");
-                        System.out.println("\t\t\t\t\t\t\t\t ---------------------------------------------------------------");
+                        System.out.println("\t\t\t\t\t\t\t\t ---------------------------------------------------------");
                     }
                     else {x.k(smart[8][1],jml);}
                     break;
